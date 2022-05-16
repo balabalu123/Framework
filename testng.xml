@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel= "tests" >
+  <test name="ChromeTest">
+  <parameter name="browserName" value="chrome"></parameter>
+  <parameter name="userName"    value="bala"></parameter>
+  <parameter name="passWord"    value="bala123"></parameter>
+  <classes>
+  <class name= "org.frameworkwebsitetasks.TestNGQue7"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="geckoTest">
+  <parameter name="browserName" value="gecko"></parameter>
+  <parameter name="userName"    value="bala"></parameter>
+  <parameter name="passWord"    value="bala123"></parameter>
+  <classes>
+  <class name= "org.frameworkwebsitetasks.TestNGQue7"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="EdgeTest">
+  <parameter name="browserName" value="edge"></parameter>
+  <parameter name="userName"    value="bala"></parameter>
+  <parameter name="passWord"    value="bala123"></parameter>
+  <classes>
+  <class name= "org.frameworkwebsitetasks.TestNGQue7"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

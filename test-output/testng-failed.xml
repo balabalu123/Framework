@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="passWord" value="bala123"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="userName" value="bala"/>
+    <classes>
+      <class name="org.frameworkwebsitetasks.TestNGQue7">
+        <methods>
+          <include name="Aftermethod"/>
+          <include name="Beforemethod"/>
+          <include name="test01" invocation-numbers="0"/>
+          <include name="Beforeclass"/>
+          <include name="Afterclass"/>
+        </methods>
+      </class> <!-- org.frameworkwebsitetasks.TestNGQue7 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
