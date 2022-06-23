@@ -64,9 +64,7 @@ public class TestNGQue7 extends FrameworkBaseclass {
 			
 			
 		}
-		else {
-			System.out.println("Invalid Browser");
-		}
+		
 		
 		launchUrl("https://www.flipkart.com/account/login");
 		SoftAssert s = new SoftAssert();
